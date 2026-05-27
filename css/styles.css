@@ -141,7 +141,7 @@ body {
   padding: auto;
 }
 .advantages-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   min-height: 104px;
 }
 .item-title {
@@ -270,6 +270,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .portfolio-text {
   font-size: 16px;
