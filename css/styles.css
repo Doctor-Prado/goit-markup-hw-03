@@ -24,12 +24,12 @@ body {
 
 .header-logo {
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .nav-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .header-logo,
@@ -71,7 +71,7 @@ body {
 }
 .address-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .address-link {
   font-size: 16px;
