@@ -5,8 +5,15 @@ body {
 }
 
 .page-header {
+  border: 1px solid #e7e9fc;
+}
+
+.header-wrapper {
   display: flex;
   justify-content: space-around;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header-nav {
@@ -228,7 +235,7 @@ body {
 .page-footer {
   display: flex;
   flex-direction: column;
-  padding: 100px 0 100px 156px;
+  padding: 100px 0;
   background-color: #2e2f42;
 }
 
